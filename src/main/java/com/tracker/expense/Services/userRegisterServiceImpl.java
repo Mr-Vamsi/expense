@@ -15,7 +15,6 @@ public class userRegisterServiceImpl implements userRegisterService{
 
     @Override
     public userRegister saveUser(userRegister userRegister) {
-
         userRegister register = repository.save(userRegister);
         return register;
     }
